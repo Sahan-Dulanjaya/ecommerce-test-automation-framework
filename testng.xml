@@ -15,18 +15,18 @@
 <suite parallel="tests" name="Product Test Suite">
 
     <listeners>
-        <listener class-name="rahulshettyacademy.TestComponents.Listeners"/>
+        <listener class-name="ecommercewebsite.TestComponents.Listeners"/>
     </listeners>
 
     <test thread-count="5" name="Submit Order Test">
         <classes>
-            <class name="rahulshettyacademy.SubmitOrderTest"/>
+            <class name="ecommercewebsite.SubmitOrderTest"/>
         </classes>
     </test>
 
     <test thread-count="5" name="Error Validations Test">
         <classes>
-            <class name="rahulshettyacademy.ErrorValidations"/>
+            <class name="ecommercewebsite.ErrorValidations"/>
         </classes>
     </test>
 
