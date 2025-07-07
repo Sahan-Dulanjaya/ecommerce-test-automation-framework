@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Cucumber_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Cucumber Suite</span>
+            <a href="#" panel-name="suite-Product_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Product Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Cucumber_Suite" class="navigator-link ">
-                    <span>F:\Projects\test\rahulshettyacademy\seleniumframeworkdesign\testng.xml</span>
+                  <a href="#" panel-name="test-xml-Product_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\User\Gitstuff\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Cucumber_Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-Product_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Cucumber_Suite" class="navigator-link ">
-                    <span>1 group</span>
+                  <a href="#" panel-name="group-Product_Test_Suite" class="navigator-link ">
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Cucumber_Suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Product_Test_Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Cucumber_Suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Product_Test_Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Cucumber_Suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Product_Test_Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Cucumber_Suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Product_Test_Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,64 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">6 methods, 2 failed,  1 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Product_Test_Suite" class="hide-methods failed suite-Product_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Product_Test_Suite -->
+                      <a href="#" panel-name="suite-Product_Test_Suite" class="show-methods failed suite-Product_Test_Suite"> (show)</a> <!-- show-methods failed suite-Product_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Product_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Product_Test_Suite" title="ecommercewebsite.SubmitOrderTest" class="method navigator-link" hash-for-method="OrderHistoryTest">OrderHistoryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Product_Test_Suite" title="ecommercewebsite.ErrorValidations" class="method navigator-link" hash-for-method="loginErrorValidation">loginErrorValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Product_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Product_Test_Suite" class="hide-methods skipped suite-Product_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-Product_Test_Suite -->
+                      <a href="#" panel-name="suite-Product_Test_Suite" class="show-methods skipped suite-Product_Test_Suite"> (show)</a> <!-- show-methods skipped suite-Product_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Product_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Product_Test_Suite" title="ecommercewebsite.ErrorValidations" class="method navigator-link" hash-for-method="loginErrorValidation">loginErrorValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Product_Test_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Cucumber_Suite" class="hide-methods passed suite-Cucumber_Suite"> (hide)</a> <!-- hide-methods passed suite-Cucumber_Suite -->
-                      <a href="#" panel-name="suite-Cucumber_Suite" class="show-methods passed suite-Cucumber_Suite"> (show)</a> <!-- show-methods passed suite-Cucumber_Suite -->
+                      <a href="#" panel-name="suite-Product_Test_Suite" class="hide-methods passed suite-Product_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Product_Test_Suite -->
+                      <a href="#" panel-name="suite-Product_Test_Suite" class="show-methods passed suite-Product_Test_Suite"> (show)</a> <!-- show-methods passed suite-Product_Test_Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Cucumber_Suite">
+                    <div class="method-list-content passed suite-Product_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Suite" title="cucumber.testNGTestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Positive Test of Submitting the order&quot;, &quot;Purchase the order from E-commerce website&quot;)">runScenario("Positive Test of Submitting the order", "Purchase the order from E-commerce website")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Product_Test_Suite" title="ecommercewebsite.ErrorValidations" class="method navigator-link" hash-for-method="productErrorValidation">productErrorValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Cucumber_Suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Product_Test_Suite" title="ecommercewebsite.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ADIDAS ORIGINAL})">submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ADIDAS ORIGINAL})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Product_Test_Suite" title="ecommercewebsite.SubmitOrderTest" class="method navigator-link" hash-for-method="submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ZARA COAT 3})">submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ZARA COAT 3})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Product_Test_Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,133 +160,365 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Cucumber_Suite" class="panel Cucumber_Suite">
-          <div class="suite-Cucumber_Suite-class-passed">
+        <div panel-name="suite-Product_Test_Suite" class="panel Product_Test_Suite">
+          <div class="suite-Product_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">cucumber.testNGTestRunner</span>
+              <img src="failed.png"/>
+              <span class="class-name">ecommercewebsite.SubmitOrderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Positive Test of Submitting the order&quot;, &quot;Purchase the order from E-commerce website&quot;)">
-                  </a> <!-- runScenario("Positive Test of Submitting the order", "Purchase the order from E-commerce website") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Positive Test of Submitting the order","Purchase the order from E-commerce website")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
+                  <a name="OrderHistoryTest">
+                  </a> <!-- OrderHistoryTest -->
+                  <span class="method-name">OrderHistoryTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for condition (visibility of element located by By.cssSelector: button[routerlink=&apos;/dashboard/myorders&apos;]) to be refreshed (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4465}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4465/devtool..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afb26cb5d9a77994835a00a7630ee00e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at ecommercewebsite.AbstractComponents.AbstractComponents.waitForElementToAppear(AbstractComponents.java:39)
+	at ecommercewebsite.AbstractComponents.AbstractComponents.goToOrderPage(AbstractComponents.java:31)
+	at ecommercewebsite.SubmitOrderTest.OrderHistoryTest(SubmitOrderTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Cucumber_Suite-class-passed -->
-        </div> <!-- panel Cucumber_Suite -->
-        <div panel-name="test-xml-Cucumber_Suite" class="panel">
+          </div> <!-- suite-Product_Test_Suite-class-failed -->
+          <div class="suite-Product_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ecommercewebsite.ErrorValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginErrorValidation">
+                  </a> <!-- loginErrorValidation -->
+                  <span class="method-name">loginErrorValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrrect email or password.]
+	at ecommercewebsite.ErrorValidations.loginErrorValidation(ErrorValidations.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Product_Test_Suite-class-failed -->
+          <div class="suite-Product_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">ecommercewebsite.ErrorValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginErrorValidation">
+                  </a> <!-- loginErrorValidation -->
+                  <span class="method-name">loginErrorValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrrect email or password.]
+	at ecommercewebsite.ErrorValidations.loginErrorValidation(ErrorValidations.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 21 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Product_Test_Suite-class-skipped -->
+          <div class="suite-Product_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ecommercewebsite.SubmitOrderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ADIDAS ORIGINAL})">
+                  </a> <!-- submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ADIDAS ORIGINAL}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Adidas123, email=ecommercesite@gmail.com, productName=ADIDAS ORIGINAL})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ZARA COAT 3})">
+                  </a> <!-- submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ZARA COAT 3}) -->
+                  <span class="method-name">submitOrder</span>
+                  <span class="parameters">({password=Adidas123, email=ecommercesite@gmail.com, productName=ZARA COAT 3})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Product_Test_Suite-class-passed -->
+          <div class="suite-Product_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ecommercewebsite.ErrorValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productErrorValidation">
+                  </a> <!-- productErrorValidation -->
+                  <span class="method-name">productErrorValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Product_Test_Suite-class-passed -->
+        </div> <!-- panel Product_Test_Suite -->
+        <div panel-name="test-xml-Product_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\Projects\test\rahulshettyacademy\seleniumframeworkdesign\testng.xml</span>
+            <span class="header-content">C:\Users\User\Gitstuff\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Cucumber Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Cucumber Tests&quot; verbose=&quot;0&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Product Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ecommercewebsite.TestComponents.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Submit Order Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;cucumber.testNGTestRunner&quot;/&gt;
+      &lt;class name=&quot;ecommercewebsite.SubmitOrderTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Cucumber Tests --&gt;
-&lt;/suite&gt; &lt;!-- Cucumber Suite --&gt;
+  &lt;/test&gt; &lt;!-- Submit Order Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Error Validations Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ecommercewebsite.ErrorValidations&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Error Validations Test --&gt;
+&lt;/suite&gt; &lt;!-- Product Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Cucumber_Suite" class="panel">
+        <div panel-name="testlist-Product_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Cucumber Suite</span>
+            <span class="header-content">Tests for Product Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Cucumber Tests (1 class)</span>
+                <span class="test-name">Submit Order Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Error Validations Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Cucumber_Suite" class="panel">
+        <div panel-name="group-Product_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Cucumber Suite</span>
+            <span class="header-content">Groups for Product Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">cucumber</span>
+              <span class="test-group-name">ErrorHandling</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">runScenario</span>
+                <span class="method-in-group-name">loginErrorValidation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Purchase</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">submitOrder</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Cucumber_Suite" class="panel">
+        <div panel-name="times-Product_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Cucumber Suite</span>
+            <span class="header-content">Times for Product Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Cucumber_Suite');
-function tableData_Cucumber_Suite() {
+suiteTableInitFunctions.push('tableData_Product_Test_Suite');
+function tableData_Product_Test_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'cucumber.testNGTestRunner')
-data.setCell(0, 3, 11649);
-window.suiteTableData['Cucumber_Suite']= { tableData: data, tableDiv: 'times-div-Cucumber_Suite'}
+data.setCell(0, 1, 'submitOrder')
+data.setCell(0, 2, 'ecommercewebsite.SubmitOrderTest')
+data.setCell(0, 3, 7389);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'productErrorValidation')
+data.setCell(1, 2, 'ecommercewebsite.ErrorValidations')
+data.setCell(1, 3, 7281);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'OrderHistoryTest')
+data.setCell(2, 2, 'ecommercewebsite.SubmitOrderTest')
+data.setCell(2, 3, 6334);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'submitOrder')
+data.setCell(3, 2, 'ecommercewebsite.SubmitOrderTest')
+data.setCell(3, 3, 5278);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginErrorValidation')
+data.setCell(4, 2, 'ecommercewebsite.ErrorValidations')
+data.setCell(4, 3, 1137);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginErrorValidation')
+data.setCell(5, 2, 'ecommercewebsite.ErrorValidations')
+data.setCell(5, 3, 1016);
+window.suiteTableData['Product_Test_Suite']= { tableData: data, tableDiv: 'times-div-Product_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
-              <div id="times-div-Cucumber_Suite">
-              </div> <!-- times-div-Cucumber_Suite -->
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Product_Test_Suite">
+              </div> <!-- times-div-Product_Test_Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Cucumber_Suite" class="panel">
+        <div panel-name="reporter-Product_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Cucumber Suite</span>
+            <span class="header-content">Reporter output for Product Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Cucumber_Suite" class="panel">
+        <div panel-name="ignored-methods-Product_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Cucumber_Suite" class="panel">
+        <div panel-name="chronological-Product_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">cucumber.testNGTestRunner</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@5fcfca62)</span>
+              <div class="chronological-class-name">ecommercewebsite.ErrorValidations</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.SubmitOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">285 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Positive Test of Submitting the order", "Purchase the order from E-commerce website")</span>
-                <span class="method-start">658 ms</span>
+                <span class="method-name">submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ZARA COAT 3})</span>
+                <span class="method-start">4397 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDownClass</span>
-                <span class="method-start">12312 ms</span>
-              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.ErrorValidations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginErrorValidation</span>
+                <span class="method-start">6056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">7537 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.SubmitOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11796 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">12162 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.ErrorValidations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginErrorValidation</span>
+                <span class="method-start">12220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14471 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">15201 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.SubmitOrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">submitOrder({password=Adidas123, email=ecommercesite@gmail.com, productName=ADIDAS ORIGINAL})</span>
+                <span class="method-start">17881 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.ErrorValidations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">productErrorValidation</span>
+                <span class="method-start">18223 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.SubmitOrderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">23564 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.ErrorValidations</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25505 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ecommercewebsite.SubmitOrderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">OrderHistoryTest</span>
+                <span class="method-start">26549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33548 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

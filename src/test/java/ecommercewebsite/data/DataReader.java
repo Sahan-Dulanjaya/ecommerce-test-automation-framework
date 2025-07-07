@@ -16,7 +16,7 @@ public class DataReader {
     public List<HashMap<String, String>> getJsonDataToMap() throws IOException{
 
         //reader json to string
-        String jsonContent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"\\src\\test\\java\\rahulshettyacademy\\data\\PurchaseOrder.json"), StandardCharsets.UTF_8);
+        String jsonContent = FileUtils.readFileToString(new File(System.getProperty("user.dir")+"\\src\\test\\java\\ecommercewebsite\\data\\PurchaseOrder.json"), StandardCharsets.UTF_8);
 
         //convert string to json with Jackson databin
         ObjectMapper mapper = new ObjectMapper();

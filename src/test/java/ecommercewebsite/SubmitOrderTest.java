@@ -71,7 +71,7 @@ public class SubmitOrderTest extends BaseTest {
                 // map1.put("password", "Iamking@000");
                 // map1.put("productName", "ADIDAS ORIGINAL");
                 
-                List<HashMap<String, String>> data = getJsonDataToMap(System.getProperty("user.dir")+"\\src\\test\\java\\rahulshettyacademy\\data\\PurchaseOrder.json");
+                List<HashMap<String, String>> data = getJsonDataToMap(System.getProperty("user.dir")+"\\src\\test\\java\\ecommercewebsite\\data\\PurchaseOrder.json");
                 return new Object[][] { { data.get(0) }, { data.get(1) } };
 
         }
